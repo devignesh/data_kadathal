@@ -1,2 +1,2 @@
 # data_kadathal
-Web scraping using JS..
+This is simple scraping script for Web scraping using JS 
