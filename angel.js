@@ -32,3 +32,11 @@ const puppeteer = require('puppeteer');
     console.log('for (...) {...}');
     console.log(exception);
   }
+  try {
+    for (p = 2; p <= 20; p++) {
+      await page.click(`[data-page="${p}"]`);
+      await page.waitForSelector(`[data-page="${p + 1}"]`, {
+        timeout: 30000,
+        visible: true,
+      });
+    }
