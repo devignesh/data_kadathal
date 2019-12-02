@@ -40,3 +40,8 @@ const puppeteer = require('puppeteer');
         visible: true,
       });
     }
+  } catch (exception) {
+    console.log('for (...) {...}');
+    console.log(exception);
+  }
+
