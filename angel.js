@@ -2,8 +2,8 @@ const fs = require('fs');
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const source = process.argv[2];
-  const target = process.argv[3];
+  const source_url = process.argv[2];
+  const target_file = process.argv[3];
 
   const browser = await puppeteer.launch({
     defaultViewport: {
