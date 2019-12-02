@@ -44,4 +44,21 @@ const puppeteer = require('puppeteer');
     console.log('for (...) {...}');
     console.log(exception);
   }
+  const companies = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll('.startup')).map(
+      (value, key) => {
+        const record = {
+          company: {
+            url: '',
+            name: '',
+            pitch: '',
+          },
+          joined: '',
+          location: [],
+          market: [],
+          website: '',
+          company_size: '',
+          stage: '',
+          raised: 0.0,
+        };
 
