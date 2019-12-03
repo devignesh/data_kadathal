@@ -50,4 +50,12 @@ const puppeteer = require('puppeteer');
           stage: '',
           raised: 0.0,
         };
+        try {
+          record.company.url = value.querySelector(
+            '.company .name .startup-link',
+          ).href;
+        } catch (exception) {
+          console.log('company.url');
+          console.log(exception);
+        }
 
