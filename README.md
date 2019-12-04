@@ -7,4 +7,4 @@ Install the npm tool in your machine ..
 
 npm install
 
-Check is there puppeteer is there are not..
+Check is there puppeteer is there are not
