@@ -1,6 +1,24 @@
 {
   "dependencies": {
     "puppeteer": "^2.0.0"
-  }
+  },
+  "name": "data_kadathal",
+  "description": "This is simple scraping script for Web scraping using JS",
+  "version": "1.0.0",
+  "main": "angel.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devignesh/data_kadathal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devignesh/data_kadathal/issues"
+  },
+  "homepage": "https://github.com/devignesh/data_kadathal#readme"
 }
-
