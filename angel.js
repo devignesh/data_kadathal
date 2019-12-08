@@ -17,7 +17,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
   await page.goto(source_url, {
-    waitUntil: ['networkidle2'],
+    waitUntil: ['networkidle0'],
   });
 
   try {
