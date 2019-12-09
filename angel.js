@@ -58,4 +58,7 @@ const puppeteer = require('puppeteer');
           console.log('company.url');
           console.log(exception);
         }
+	try {
+	  record.company.name = value.querySelector('.company .name .startup-link',).textcontent;
+	} catch (exception) {}
 
