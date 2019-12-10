@@ -60,5 +60,8 @@ const puppeteer = require('puppeteer');
         }
 	try {
 	  record.company.name = value.querySelector('.company .name .startup-link',).textcontent;
-	} catch (exception) {}
+	} catch (exception) {
+	  console.log('company.name')
+	  console.log('exception')	
+	}
 
