@@ -71,7 +71,7 @@ const puppeteer = require('puppeteer');
 	  console.log('exception')	
 	}
 	try {
-	  record.joined = value.querySelector().textcontent();
+	  record.joined = value.querySelector('.joined .value').textcontent();
 	} catch (exception) {
 	  console.log('.joined')
 	  console.log('exception')
