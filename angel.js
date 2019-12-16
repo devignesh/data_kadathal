@@ -72,6 +72,6 @@ const puppeteer = require('puppeteer');
 	}
 	try {
 	  record.joined = value.querySelector().textcontent();
-	} catch ()
+	} catch (exception)
 
 
