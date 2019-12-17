@@ -77,7 +77,7 @@ const puppeteer = require('puppeteer');
 	  console.log('exception')
 	}
 	try {
-	  record.location = Array.from()	
+	  record.location = Array.from(value.querySelector())	
 	}
 
 
