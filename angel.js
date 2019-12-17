@@ -76,5 +76,6 @@ const puppeteer = require('puppeteer');
 	  console.log('.joined')
 	  console.log('exception')
 	}
+	try {}
 
 
