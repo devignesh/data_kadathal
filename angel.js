@@ -77,7 +77,7 @@ const puppeteer = require('puppeteer');
 	  console.log('exception')
 	}
 	try {
-	  record.location = Array.from(value.querySelector())	
+	  record.location = Array.from(value.querySelector('.location .value .tag a'))	
 	}
 
 
