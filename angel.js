@@ -76,6 +76,8 @@ const puppeteer = require('puppeteer');
 	  console.log('.joined')
 	  console.log('exception')
 	}
-	try {}
+	try {
+	  record.location = Array.from()	
+	}
 
 
