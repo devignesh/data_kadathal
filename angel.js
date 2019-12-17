@@ -78,6 +78,9 @@ const puppeteer = require('puppeteer');
 	}
 	try {
 	  record.location = Array.from(value.querySelector('.location .value .tag a'),).map((value, key => {return value.textContent; }).join(',');
-	} catch (exception) {}
+	} catch (exception) {
+	  console.log('.joined')
+	  console.log('exception')
+	}
 
 
