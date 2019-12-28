@@ -87,6 +87,6 @@ const puppeteer = require('puppeteer');
                                         record.market = Array.from(value.querySelector('.market .value .tag a'), ).map((value, key => { return value.textContent; }).join(',');
                                         }
                                         catch (exception) {
-                                            console.log('.joined')
+                                            console.log('.market')
                                             console.log('exception')
                                         }
