@@ -23,7 +23,10 @@ func main() {
     z := 5
 
     max_xy := max(x, y) 
-    max_xz := max(x, z) 
+    max_xz := max(x, z)
+    
+    value := max_xy
+    fmt.Println(value)
 
     fmt.Printf("max(%d, %d) = %d\n", x, y, max_xy)
     fmt.Printf("max(%d, %d) = %d\n", x, z, max_xz)
