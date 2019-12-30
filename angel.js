@@ -92,5 +92,5 @@ const puppeteer = require('puppeteer');
                                 }
 
                                 try {
-                                    record.website = 
+                                    record.website = value.querySelector('.website .value .website a').href;
                                 }
