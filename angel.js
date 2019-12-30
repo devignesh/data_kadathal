@@ -93,4 +93,6 @@ const puppeteer = require('puppeteer');
 
                                 try {
                                     record.website = value.querySelector('.website .value .website a').href;
+                                } catch (exception) {
+                                    
                                 }
