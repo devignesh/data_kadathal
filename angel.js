@@ -78,15 +78,19 @@ const puppeteer = require('puppeteer');
                                 }
                                 try {
                                     record.location = Array.from(value.querySelector('.location .value .tag a'), ).map((value, key => { return value.textContent; }).join(',');
-                                    }
-                                    catch (exception) {
-                                        console.log('.location')
-                                        console.log('exception')
-                                    }
-                                    try {
-                                        record.market = Array.from(value.querySelector('.market .value .tag a'), ).map((value, key => { return value.textContent; }).join(',');
-                                        }
-                                        catch (exception) {
-                                            console.log('.market')
-                                            console.log('exception')
-                                        }
+                                
+                                } catch (exception) {
+                                    console.log('.location')
+                                    console.log('exception')
+                                }
+                                try {
+                                    record.market = Array.from(value.querySelector('.market .value .tag a'), ).map((value, key => { return value.textContent; }).join(',');
+                        
+                                } catch (exception) {
+                                    console.log('.market')
+                                    console.log('exception')
+                                }
+
+                                try {
+                                    record.website = 
+                                }
