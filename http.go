@@ -8,8 +8,8 @@ import (
 )
 
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
-    r.ParseForm()  // parse arguments, you have to call this by yourself
-    fmt.Println(r.Form)  // print form information in server side
+    r.ParseForm()  
+    fmt.Println(r.Form)  
     fmt.Println("path", r.URL.Path)
     fmt.Println("scheme", r.URL.Scheme)
     fmt.Println(r.Form["url_long"])
