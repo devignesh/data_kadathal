@@ -25,6 +25,7 @@ func main() {
     max_xy := max(x, y) 
     max_xz := max(x, z)
     min_xy := min(x, y)
+    min_xz := min(x, z)
     
     // value := max_xy
     // fmt.Println(value)
