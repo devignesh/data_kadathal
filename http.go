@@ -22,7 +22,7 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
 
 func main() {
     http.HandleFunc("/", sayhelloName) // set router
-    err := http.ListenAndServe(":8080", nil) // set listen port
+    err := http.ListenAndServe(":8080", nil) 
     if err != nil {
         log.Fatal("ListenAndServe: ", err)
     }
