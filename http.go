@@ -17,7 +17,7 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
         fmt.Println("key:", k)
         fmt.Println("val:", strings.Join(v, ""))
     }
-    fmt.Fprintf(w, "Hello astaxie!") // send data to client side
+    fmt.Fprintf(w, "Hello astaxie!") 
 }
 
 func main() {
