@@ -5,10 +5,10 @@ import (
     "net/http"
 )
 
-type MyMux struct {
+type Mymux struct {
 }
 
-func (p *MyMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+func (p *Mymux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
     if r.URL.Path == "/" {
         sayhelloName(w, r)
         return
@@ -22,6 +22,6 @@ func sayhelloName(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    mux := &MyMux{}
+    mux := &Mymux{}
     http.ListenAndServe(":8080", mux)
 }
