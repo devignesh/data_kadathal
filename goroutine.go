@@ -19,6 +19,7 @@ func (p *Mymux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "Hello myroute! vicky")
+    fmt.Println(sayhelloName)
 }
 
 func main() {
