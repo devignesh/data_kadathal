@@ -14,10 +14,15 @@ func Older(p1, p2 person) (person, int) {
     return p2, p2.age - p1.age
 }
 func main() {
-   var tom person
+    var tom person
 
     tom.name, tom.age = "Tom", 18
     bob := person{age: 25, name: "Bob"}
     paul := person{"Paul", 43}
+
+    tb_Older, tb_diff := Older(tom, bob)
+    tp_Older, tp_diff := Older(tom, paul)
+    bp_Older, bp_diff := Older(bob, paul)
+
 
 }
