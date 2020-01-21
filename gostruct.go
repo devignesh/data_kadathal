@@ -13,3 +13,6 @@ func Older(p1, p2 person) (person, int) {
     }
     return p2, p2.age - p1.age
 }
+func main() {
+
+}
