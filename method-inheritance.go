@@ -25,7 +25,7 @@ func (h *Human) SayHi() {
 
 func main() {
     sam := Employee{Human{"vicky", 45, "111-888-XXXX"}, "Golang Inc"}
-    mark := Student{Human{"Mark", 25, "222-222-YYYY"}, "MIT"}
+    mark := Student{Human{"suji", 25, "222-222-YYYY"}, "MIT"}
 
     sam.SayHi()
     mark.SayHi()
