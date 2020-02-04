@@ -17,8 +17,8 @@ func main() {
     var tom person
 
     tom.name, tom.age = "vicky", 18
-    bob := person{age: 25, name: "suji"}
-    paul := person{"vj", 43}
+    bob := person{age: 22, name: "suji"}
+    paul := person{"vj", 24}
 
     tb_Older, tb_diff := Older(tom, bob)
     tp_Older, tp_diff := Older(tom, paul)
