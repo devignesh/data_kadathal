@@ -10,4 +10,7 @@ func main() {
 
 	fmt.Println(maps)
 
+	var map2 = make(map[string]string)
+	fmt.Println(map2)
+
 }
