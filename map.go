@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Println(maps)
 
-	var map2 = make(map[string]string)
-	fmt.Println(map2)
+	mapsyn := make(map[string]string)
+	fmt.Println(mapsyn)
 
 }
