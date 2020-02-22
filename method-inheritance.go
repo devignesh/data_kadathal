@@ -19,8 +19,8 @@ type Employee struct {
 }
 
 
-func (h *Human) SayHi() {
-    fmt.Printf("Hi, I am %s you can call me on %s\n", h.name, h.phone)
+func (hu *Human) SayHi() {
+    fmt.Printf("Hi, I am %s you can call me on %s\n", hu.name, hu.phone)
 }
 
 func main() {
